@@ -1,4 +1,4 @@
-package Learn;
+package com.Dandelion.Learn;
 
 public class StrongReference {
     public static void main(String[] args) {

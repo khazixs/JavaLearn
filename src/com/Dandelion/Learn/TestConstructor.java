@@ -1,4 +1,4 @@
-package Learn;
+package com.Dandelion.Learn;
 
 class Point {
     double x, y;
