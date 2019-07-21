@@ -1,5 +1,5 @@
 package com.Dandelion.Learn;
-
+//封装
 public class Encapsulation {
     private int age;
     private String name;

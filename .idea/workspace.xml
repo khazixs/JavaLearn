@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4eca3b-6b7a-4b87-b88e-d36efbeacbba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Encapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Racer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/StartRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/StartThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/TestAnonymousInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/TestEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/TestGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/TestInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/TestStaticInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/TestWrappedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Web12306.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/WebDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/PlaneGame/MyGameFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/LambdaThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/StaticProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Learn/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Encapsulation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,10 +35,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Racer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/LambdaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/LambdaThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -96,7 +104,6 @@
         <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/TestThis.java" />
         <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/TestObject.java" />
         <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/TestEquals.java" />
-        <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/Encapsulation.java" />
         <option value="$PROJECT_DIR$/src/com/Dandelion/PlaneGame/MyGameFrame.java" />
         <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/Animal.java" />
         <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/MyInterface.java" />
@@ -110,6 +117,12 @@
         <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/StartRun.java" />
         <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/Web12306.java" />
         <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/Racer.java" />
+        <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/Encapsulation.java" />
+        <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/StaticProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/LamdaThread.java" />
+        <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/LamdaTest.java" />
+        <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/LambdaTest.java" />
+        <option value="$PROJECT_DIR$/src/com/Dandelion/Learn/LambdaThread.java" />
       </list>
     </option>
   </component>
@@ -127,8 +140,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="35" />
+    <option name="x" value="336" />
+    <option name="y" value="59" />
     <option name="width" value="1229" />
     <option name="height" value="920" />
   </component>
@@ -184,7 +197,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563465952145" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563681351393" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -210,7 +223,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Racer">
+  <component name="RunManager" selected="Application.LambdaTest">
+    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.LambdaTest" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Dandelion.Learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LamdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.LamdaTest" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Dandelion.Learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Racer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.Racer" />
       <module name="Java" />
@@ -224,34 +263,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.StartRun" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.Learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StartThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.StartThread" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.Learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.TestGeneric" />
+    <configuration name="StaticProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.StaticProxy" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -277,19 +290,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestGeneric" />
-      <item itemvalue="Application.StartThread" />
-      <item itemvalue="Application.StartRun" />
       <item itemvalue="Application.Web12306" />
       <item itemvalue="Application.Racer" />
+      <item itemvalue="Application.StaticProxy" />
+      <item itemvalue="Application.LamdaTest" />
+      <item itemvalue="Application.LambdaTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaTest" />
+        <item itemvalue="Application.LamdaTest" />
+        <item itemvalue="Application.StaticProxy" />
         <item itemvalue="Application.Racer" />
         <item itemvalue="Application.Web12306" />
-        <item itemvalue="Application.StartRun" />
-        <item itemvalue="Application.StartThread" />
-        <item itemvalue="Application.TestGeneric" />
       </list>
     </recent_temporary>
   </component>
@@ -310,6 +323,8 @@
       <workItem from="1563452165775" duration="2908000" />
       <workItem from="1563464270001" duration="1679000" />
       <workItem from="1563501096579" duration="17557000" />
+      <workItem from="1563673814074" duration="102000" />
+      <workItem from="1563673992544" duration="4906000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1563094447661</created>
@@ -322,13 +337,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33817000" />
+    <option name="totallyTimeSpent" value="38825000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="35" width="1229" height="920" extended-state="0" />
+    <frame x="336" y="59" width="1229" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27484876" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26860565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,7 +352,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945284" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4884354" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21259843" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +362,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32945284" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32765958" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32703003" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24974516" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24974516" />
@@ -502,91 +517,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestEquals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Encapsulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/PlaneGame/MyGameFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#393#575#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/MyInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestStaticInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestEquals.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/PlaneGame/MyGameFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/MyInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestInnerClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestStaticInnerClass.java" />
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -611,19 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestAnonymousInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestAnonymousInnerClass.java" />
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -655,56 +578,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/StartThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#152#160#0" expanded="true" />
-            <element signature="e#215#224#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestWrappedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/WebDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/StartRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Web12306.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/StartThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestGeneric.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestWrappedClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/WebDownloader.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Web12306.java" />
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
@@ -712,10 +590,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Racer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Racer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Encapsulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="30">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Animal.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/StartRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/StaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/LambdaThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/LambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
