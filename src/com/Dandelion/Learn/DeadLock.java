@@ -3,7 +3,8 @@ package com.Dandelion.Learn;
 import java.awt.*;
 
 /*过多的同步可能造成相互不释放资源，从而相互等待，一半发生于同步中持有多个对象锁的时候
-* 避免死锁即不要一个对象同时拥有多个锁，不要锁套锁*/
+* 避免死锁即不要一个对象同时拥有多个锁，不要锁套锁··
+* */
 public class DeadLock {
     public static void main(String[] args) {
         Markup g1 = new Markup(1,"大丫");
