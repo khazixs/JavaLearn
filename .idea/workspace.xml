@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4eca3b-6b7a-4b87-b88e-d36efbeacbba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/UdpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/UdpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat/MultiChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat/MultiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MultiChat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MultiClient2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/Receive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +44,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -68,6 +70,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563681351393" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/Dandelion" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -77,7 +80,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Dandelion.Chat2" />
+      <recent name="com.Dandelion.Chat" />
       <recent name="com.Dandelion.Learn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\JavaLearn\src\com\Dandelion" />
+      <recent name="D:\Java\JavaLearn\src\com\Dandelion\Chat" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -92,13 +101,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UdpClient">
-    <configuration name="CAS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.CAS" />
+  <component name="RunManager" selected="Application.test">
+    <configuration name="MultiChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat.MultiChat" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Learn.*" />
+          <option name="PATTERN" value="com.Dandelion.Chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.LockTest" />
+    <configuration name="MultiChat2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat2.MultiChat2" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Learn.*" />
+          <option name="PATTERN" value="com.Dandelion.Chat2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWrappedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.TestWrappedClass" />
+    <configuration name="MultiClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat.MultiClient" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Learn.*" />
+          <option name="PATTERN" value="com.Dandelion.Chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UdpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.UdpClient" />
+    <configuration name="MultiClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat2.MultiClient2" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Learn.*" />
+          <option name="PATTERN" value="com.Dandelion.Chat2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UdpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.UdpServer" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat2.test" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Learn.*" />
+          <option name="PATTERN" value="com.Dandelion.Chat2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,19 +168,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LockTest" />
-      <item itemvalue="Application.CAS" />
-      <item itemvalue="Application.TestWrappedClass" />
-      <item itemvalue="Application.UdpClient" />
-      <item itemvalue="Application.UdpServer" />
+      <item itemvalue="Application.MultiChat" />
+      <item itemvalue="Application.MultiClient" />
+      <item itemvalue="Application.MultiChat2" />
+      <item itemvalue="Application.MultiClient2" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UdpClient" />
-        <item itemvalue="Application.UdpServer" />
-        <item itemvalue="Application.CAS" />
-        <item itemvalue="Application.TestWrappedClass" />
-        <item itemvalue="Application.LockTest" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.MultiChat2" />
+        <item itemvalue="Application.MultiClient2" />
+        <item itemvalue="Application.MultiClient" />
+        <item itemvalue="Application.MultiChat" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +210,8 @@
       <workItem from="1563934172742" duration="1855000" />
       <workItem from="1563936056472" duration="4470000" />
       <workItem from="1564041293598" duration="5248000" />
+      <workItem from="1564211256223" duration="6530000" />
+      <workItem from="1564218238123" duration="3623000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1563094447661</created>
