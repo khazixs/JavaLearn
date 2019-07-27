@@ -1,15 +1,14 @@
-package com.Dandelion.Chat2;
-
+package com.Dandelion.Chat3;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-public class Receive implements Runnable {
+public class Receive3 implements Runnable {
     private Socket client;
     private DataInputStream dis;
     private boolean isRunning;
 
-    public Receive(Socket client) {
+    public Receive3(Socket client) {
         this.client = client;
         try {
             dis = new DataInputStream(client.getInputStream());
@@ -36,7 +35,7 @@ public class Receive implements Runnable {
     //释放资源
     private void release() {
         this.isRunning = false;
-        MyUtils.close(dis, client);
+        MyUtils3.close(dis, client);
     }
     @Override
     public void run() {

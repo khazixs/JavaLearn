@@ -5,6 +5,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.channels.Channel;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 /*ChatRoom Online
  * 实现一个客户可以正常收发信息*/

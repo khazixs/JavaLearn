@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4eca3b-6b7a-4b87-b88e-d36efbeacbba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat/MultiChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat/MultiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MultiChat2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MultiClient2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/Receive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/TestAssister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat3/Chat3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat3/Client3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat3/MyUtils3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat3/Receive3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat3/Send3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat3/TestAssisted3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat3/TestAssisted3_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat/MultiChat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat/MultiChat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/MultiChat2$Channel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/MultiChat2$Channel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/MultiChat2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/MultiChat2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/MultiClient2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/MultiClient2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/MyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/MyUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/Receive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/Receive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/Send.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Chat2/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Chat/MultiChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat/MultiChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MultiChat2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MultiChat2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MultiClient2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MultiClient2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/MyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Chat2/Receive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/Receive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Chat2/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Chat2/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Chat2/test.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,11 +94,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Dandelion.Chat3" />
       <recent name="com.Dandelion.Chat2" />
       <recent name="com.Dandelion.Chat" />
       <recent name="com.Dandelion.Learn" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaLearn\src\com\Dandelion" />
       <recent name="D:\Java\JavaLearn\src\com\Dandelion" />
       <recent name="D:\Java\JavaLearn\src\com\Dandelion\Chat" />
     </key>
@@ -101,13 +117,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="MultiChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat.MultiChat" />
+  <component name="RunManager" selected="Application.TestAssisted3_">
+    <configuration name="Chat3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat3.Chat3" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Chat.*" />
+          <option name="PATTERN" value="com.Dandelion.Chat3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiChat2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat2.MultiChat2" />
+    <configuration name="Client3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat3.Client3" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Chat2.*" />
+          <option name="PATTERN" value="com.Dandelion.Chat3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat.MultiClient" />
+    <configuration name="TestAssisted3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat3.TestAssisted3" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Chat.*" />
+          <option name="PATTERN" value="com.Dandelion.Chat3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat2.MultiClient2" />
+    <configuration name="TestAssisted3_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat3.TestAssisted3_" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Chat2.*" />
+          <option name="PATTERN" value="com.Dandelion.Chat3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat2.test" />
+    <configuration name="TestAssister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Chat2.TestAssister" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -168,19 +184,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MultiChat" />
-      <item itemvalue="Application.MultiClient" />
-      <item itemvalue="Application.MultiChat2" />
-      <item itemvalue="Application.MultiClient2" />
-      <item itemvalue="Application.test" />
+      <item itemvalue="Application.Chat3" />
+      <item itemvalue="Application.TestAssister" />
+      <item itemvalue="Application.Client3" />
+      <item itemvalue="Application.TestAssisted3" />
+      <item itemvalue="Application.TestAssisted3_" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.MultiChat2" />
-        <item itemvalue="Application.MultiClient2" />
-        <item itemvalue="Application.MultiClient" />
-        <item itemvalue="Application.MultiChat" />
+        <item itemvalue="Application.TestAssisted3_" />
+        <item itemvalue="Application.TestAssisted3" />
+        <item itemvalue="Application.Client3" />
+        <item itemvalue="Application.Chat3" />
+        <item itemvalue="Application.TestAssister" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +228,7 @@
       <workItem from="1564041293598" duration="5248000" />
       <workItem from="1564211256223" duration="6530000" />
       <workItem from="1564218238123" duration="3623000" />
+      <workItem from="1564227604871" duration="6790000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1563094447661</created>

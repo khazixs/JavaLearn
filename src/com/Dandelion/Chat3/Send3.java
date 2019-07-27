@@ -1,4 +1,4 @@
-package com.Dandelion.Chat2;
+package com.Dandelion.Chat3;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -6,27 +6,32 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
 
-public class Send implements Runnable {
+public class Send3 implements Runnable {
     private BufferedReader console;
     private DataOutputStream dos;
     private Socket client;
     private boolean isRunning;
+    private String name;
 
-    public Send(Socket client) {
+    public Send3(Socket client, String name) {
         this.client = client;
+        this.name = name;
         console = new BufferedReader(new InputStreamReader(System.in));
         try {
             dos = new DataOutputStream(client.getOutputStream());
+            //发送名称
+            send(name);
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println("===客户端send（）出错===");
             this.release();
         }
     }
+
     //释放资源
     private void release() {
         this.isRunning = false;
-        MyUtils.close(dos, client);
+        MyUtils3.close(dos, client);
     }
 
     //从控制台获取消息
