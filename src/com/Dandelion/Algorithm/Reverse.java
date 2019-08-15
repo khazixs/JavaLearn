@@ -6,7 +6,7 @@ package com.Dandelion.Algorithm;
 
 public class Reverse {
     public static void main(String[] args) {
-        System.out.println(reverse2(-123));
+        System.out.println(reverse(-123));
         System.out.println(reverse2(1534236469));
         System.out.println(reverse2(-4760));
     }
@@ -47,12 +47,12 @@ public class Reverse {
         int rev = 0;
         while (val != 0) {
             int pop = val % 10;
-            System.out.println("pop"+pop);
+            //System.out.println("pop"+pop);
             val /= 10;
             if (rev > Integer.MAX_VALUE / 10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) return 0;
             if (rev < Integer.MIN_VALUE / 10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) return 0;
             rev = rev * 10 + pop;
-            System.out.println("rev"+rev);
+            //System.out.println("rev"+rev);
         }
         return rev;
     }
