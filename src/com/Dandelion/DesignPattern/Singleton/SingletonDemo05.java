@@ -1,4 +1,4 @@
-package com.Dandelion.DesignPattern.Singleton;
+package com.Dandelion.Designpattern.Singleton;
 //测试枚举单例模式（没有延时加载）
 public enum  SingletonDemo05 {
     //枚举元素，本身就是单例对象

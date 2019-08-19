@@ -1,4 +1,4 @@
-package com.Dandelion.DesignPattern.Singleton;
+package com.Dandelion.Designpattern.Singleton;
 //利用静态内部类实现延时加载即用到时候加载，因为外部类非静态所以不会一开始就加载
 //线程安全，调用效率高，并且实现了延时加载
 public class SingletonDemo04 {

@@ -1,4 +1,4 @@
-package com.Dandelion.DesignPattern.Singleton;
+package com.Dandelion.Designpattern.Singleton;
 //饿汉式——》用没用都加载
 public class SingletonDemo01 {
     //私有静态属性,类初始化时候立即加载这个对象，加载类时，天然的是线程安全的

@@ -1,4 +1,4 @@
-package com.Dandelion.DesignPattern.Singleton;
+package com.Dandelion.Designpattern.Singleton;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
-package com.Dandelion.DesignPattern.Singleton;
-
+package com.Dandelion.Designpattern.Singleton;
 //懒汉式，用到时候才加载
 public class SingletonDemo02 {
     private static SingletonDemo02 s;
