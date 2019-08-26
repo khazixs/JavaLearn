@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4eca3b-6b7a-4b87-b88e-d36efbeacbba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_22_bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/IO/TestIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/IO/TestIO02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/IO/TestIO03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Learn/TestCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Learn/TestCollections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +72,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563681351393" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/com/mysql" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-5.1.22-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -116,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MySQLDemo">
+  <component name="RunManager" selected="Application.MySQLDemo03">
     <configuration name="LoadDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mysql.jdbc.LoadDriver" />
       <module name="Java" />
@@ -143,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.IO.TestIO" />
+    <configuration name="MySQLDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.MySQL.MySQLDemo02" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.IO.*" />
+          <option name="PATTERN" value="com.Dandelion.MySQL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIO02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.IO.TestIO02" />
+    <configuration name="MySQLDemo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.MySQL.MySQLDemo03" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.IO.*" />
+          <option name="PATTERN" value="com.Dandelion.MySQL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestIO" />
-      <item itemvalue="Application.TestIO02" />
       <item itemvalue="Application.TestIO03" />
       <item itemvalue="Application.MySQLDemo" />
       <item itemvalue="Application.LoadDriver" />
+      <item itemvalue="Application.MySQLDemo02" />
+      <item itemvalue="Application.MySQLDemo03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySQLDemo03" />
+        <item itemvalue="Application.MySQLDemo02" />
         <item itemvalue="Application.MySQLDemo" />
         <item itemvalue="Application.LoadDriver" />
         <item itemvalue="Application.TestIO03" />
-        <item itemvalue="Application.TestIO02" />
-        <item itemvalue="Application.TestIO" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +229,9 @@
       <workItem from="1566182278814" duration="11732000" />
       <workItem from="1566266018508" duration="5335000" />
       <workItem from="1566304725383" duration="3632000" />
+      <workItem from="1566438152788" duration="608000" />
+      <workItem from="1566439104338" duration="899000" />
+      <workItem from="1566442079780" duration="7895000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1563094447661</created>
