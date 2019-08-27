@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4eca3b-6b7a-4b87-b88e-d36efbeacbba" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/RomanNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_22_bin.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo.java" afterDir="false" />
+>>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +173,11 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563681351393" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/com/mysql" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar!/" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -203,7 +216,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.RomanNum">
+=======
+  <component name="RunManager" selected="Application.MySQLDemo03">
+>>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
     <configuration name="LoadDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mysql.jdbc.LoadDriver" />
       <module name="Java" />
@@ -230,12 +247,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="RomanNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Dandelion.Algorithm.RomanNum" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Dandelion.Algorithm.*" />
+=======
+    <configuration name="MySQLDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.MySQL.MySQLDemo02" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Dandelion.MySQL.*" />
+>>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIO02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.IO.TestIO02" />
+    <configuration name="MySQLDemo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.MySQL.MySQLDemo03" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.IO.*" />
+          <option name="PATTERN" value="com.Dandelion.MySQL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,6 +296,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.TestIO02" />
       <item itemvalue="Application.TestIO03" />
       <item itemvalue="Application.MySQLDemo" />
@@ -283,6 +310,21 @@
         <item itemvalue="Application.LoadDriver" />
         <item itemvalue="Application.TestIO03" />
         <item itemvalue="Application.TestIO02" />
+=======
+      <item itemvalue="Application.TestIO03" />
+      <item itemvalue="Application.MySQLDemo" />
+      <item itemvalue="Application.LoadDriver" />
+      <item itemvalue="Application.MySQLDemo02" />
+      <item itemvalue="Application.MySQLDemo03" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MySQLDemo03" />
+        <item itemvalue="Application.MySQLDemo02" />
+        <item itemvalue="Application.MySQLDemo" />
+        <item itemvalue="Application.LoadDriver" />
+        <item itemvalue="Application.TestIO03" />
+>>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
       </list>
     </recent_temporary>
   </component>
@@ -321,9 +363,15 @@
       <workItem from="1566182278814" duration="11732000" />
       <workItem from="1566266018508" duration="5335000" />
       <workItem from="1566304725383" duration="3632000" />
+<<<<<<< HEAD
       <workItem from="1566782831589" duration="48000" />
       <workItem from="1566782947720" duration="2852000" />
       <workItem from="1566787876564" duration="2586000" />
+=======
+      <workItem from="1566438152788" duration="608000" />
+      <workItem from="1566439104338" duration="899000" />
+      <workItem from="1566442079780" duration="7895000" />
+>>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1563094447661</created>
