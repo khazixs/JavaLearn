@@ -46,28 +46,22 @@ public class RomanNum {
         int sum = 0;
         System.out.println();
         for (index = 0; index < size; index++) {
-            System.out.println("1:"+index);
             if (map.get(String.valueOf(s.charAt(index))) != null) {
-                if (map.get(String.valueOf(s.charAt(index + 1))) != null) {
-                    temp = String.valueOf(s.charAt(index)) + String.valueOf(s.charAt(index + 1));
-                    if (map.get(temp) != null) {
-                        sum = sum + map.get(temp);
-                        if((index+2)<size){
-                            index = index + 2;
-                        }else{
+                if ((index + 1) < size) {
+                    if (map.get(String.valueOf(s.charAt(index + 1))) != null) {
+                        temp = s.charAt(index) + String.valueOf(s.charAt(index + 1));
+                        if (map.get(temp) != null) {
+                            sum = sum + map.get(temp);
                             index++;
+                            continue;
+                        } else {
+                            sum = sum + map.get(String.valueOf(s.charAt(index)));
+                            continue;
                         }
-                    } else {
-                        sum = sum + map.get(String.valueOf(s.charAt(index)));
-                        index++;
                     }
-                } else {
-                    return -1;
                 }
-            } else {
-                return -1;
+                sum = sum + map.get(String.valueOf(s.charAt(index)));
             }
-            System.out.println("2:"+index);
         }
         return sum;
     }

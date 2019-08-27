@@ -1,77 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d4eca3b-6b7a-4b87-b88e-d36efbeacbba" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/RomanNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_22_bin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/SolveSudoku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/RomanNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/RomanNum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/MySQL/MySQLDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo.java" afterDir="false" />
->>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/RomanNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/RomanNum.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Algorithm/RomanNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-242">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Algorithm/RomanNum.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Algorithm/SolveSudoku.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-814">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="990">
+              <caret line="45" column="96" selection-start-line="45" selection-start-column="96" selection-end-line="45" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -86,26 +52,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Dandelion &lt;heiyubaidejianying@gamil.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/Dandelion/Algorithm/RomanNum.java" />
+        <option value="$PROJECT_DIR$/src/com/Dandelion/Algorithm/SolveSudoku.java" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="vmOptionsForImporter" value="-Xmx786m" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -114,17 +68,11 @@
     <option name="width" value="1229" />
     <option name="height" value="920" />
   </component>
-  <component name="ProjectId" id="1OUnxgqW2fJdsvu9zH39VTyJQTZ" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,6 +83,11 @@
             <path>
               <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -142,6 +95,13 @@
               <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Dandelion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Dandelion" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
@@ -152,57 +112,25 @@
             </path>
             <path>
               <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Dandelion" type="462c0819:PsiDirectoryNode" />
+              <item name="MySQL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Dandelion" type="462c0819:PsiDirectoryNode" />
+              <item name="PlaneGame" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563681351393" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/com/mysql" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar!/" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.mysql.cj.jdbc" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.Dandelion.Chat3" />
-      <recent name="com.Dandelion.Chat2" />
-      <recent name="com.Dandelion.Chat" />
-      <recent name="com.Dandelion.Learn" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\JavaLearn\src\com\Dandelion" />
-      <recent name="D:\Java\JavaLearn\src\com\Dandelion" />
-      <recent name="D:\Java\JavaLearn\src\com\Dandelion\Chat" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,17 +144,13 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.RomanNum">
-=======
-  <component name="RunManager" selected="Application.MySQLDemo03">
->>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
-    <configuration name="LoadDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mysql.jdbc.LoadDriver" />
+  <component name="RunManager" selected="Application.SolveSudoku">
+    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.Animal" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mysql.jdbc.*" />
+          <option name="PATTERN" value="com.Dandelion.Learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,34 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySQLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.MySQL.MySQLDemo" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.MySQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
     <configuration name="RomanNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Dandelion.Algorithm.RomanNum" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Dandelion.Algorithm.*" />
-=======
-    <configuration name="MySQLDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.MySQL.MySQLDemo02" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.MySQL.*" />
->>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySQLDemo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.MySQL.MySQLDemo03" />
+    <configuration name="SolveSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Algorithm.SolveSudoku" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.MySQL.*" />
+          <option name="PATTERN" value="com.Dandelion.Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,49 +184,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIO03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.IO.TestIO03" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-<<<<<<< HEAD
-      <item itemvalue="Application.TestIO02" />
-      <item itemvalue="Application.TestIO03" />
-      <item itemvalue="Application.MySQLDemo" />
-      <item itemvalue="Application.LoadDriver" />
-      <item itemvalue="Application.RomanNum" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolveSudoku" />
         <item itemvalue="Application.RomanNum" />
-        <item itemvalue="Application.MySQLDemo" />
-        <item itemvalue="Application.LoadDriver" />
-        <item itemvalue="Application.TestIO03" />
-        <item itemvalue="Application.TestIO02" />
-=======
-      <item itemvalue="Application.TestIO03" />
-      <item itemvalue="Application.MySQLDemo" />
-      <item itemvalue="Application.LoadDriver" />
-      <item itemvalue="Application.MySQLDemo02" />
-      <item itemvalue="Application.MySQLDemo03" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MySQLDemo03" />
-        <item itemvalue="Application.MySQLDemo02" />
-        <item itemvalue="Application.MySQLDemo" />
-        <item itemvalue="Application.LoadDriver" />
-        <item itemvalue="Application.TestIO03" />
->>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
+        <item itemvalue="Application.Animal" />
       </list>
     </recent_temporary>
   </component>
@@ -333,258 +197,103 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7d4eca3b-6b7a-4b87-b88e-d36efbeacbba" name="Default Changelist" comment="" />
-      <created>1562744819936</created>
+      <changelist id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="" />
+      <created>1566868108121</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562744819936</updated>
-      <workItem from="1562744821833" duration="1171000" />
-      <workItem from="1562748638136" duration="8051000" />
-      <workItem from="1563094379404" duration="2223000" />
-      <workItem from="1563104019317" duration="228000" />
-      <workItem from="1563452165775" duration="2908000" />
-      <workItem from="1563464270001" duration="1679000" />
-      <workItem from="1563501096579" duration="17557000" />
-      <workItem from="1563673814074" duration="102000" />
-      <workItem from="1563673992544" duration="4906000" />
-      <workItem from="1563758188835" duration="7821000" />
-      <workItem from="1563782112080" duration="604000" />
-      <workItem from="1563845634140" duration="5930000" />
-      <workItem from="1563933797075" duration="172000" />
-      <workItem from="1563934172742" duration="1855000" />
-      <workItem from="1563936056472" duration="4470000" />
-      <workItem from="1564041293598" duration="5248000" />
-      <workItem from="1564211256223" duration="6530000" />
-      <workItem from="1564218238123" duration="3623000" />
-      <workItem from="1564227604871" duration="6790000" />
-      <workItem from="1565430978607" duration="8918000" />
-      <workItem from="1565696601761" duration="7165000" />
-      <workItem from="1565854736093" duration="2943000" />
-      <workItem from="1566182278814" duration="11732000" />
-      <workItem from="1566266018508" duration="5335000" />
-      <workItem from="1566304725383" duration="3632000" />
-<<<<<<< HEAD
-      <workItem from="1566782831589" duration="48000" />
-      <workItem from="1566782947720" duration="2852000" />
-      <workItem from="1566787876564" duration="2586000" />
-=======
-      <workItem from="1566438152788" duration="608000" />
-      <workItem from="1566439104338" duration="899000" />
-      <workItem from="1566442079780" duration="7895000" />
->>>>>>> b9f5ba54694f10b3e8a3c137e4b1fa3197e29395
+      <updated>1566868108121</updated>
+      <workItem from="1566868126373" duration="5829000" />
     </task>
-    <task id="LOCAL-00001" summary="second">
-      <created>1563094447661</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1563094447661</updated>
-    </task>
-    <task id="LOCAL-00002" summary="second">
-      <created>1563761227265</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1563761227265</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5486000" />
+    <option name="totallyTimeSpent" value="5829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25578034" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32952926" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25677603" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36091298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="second" />
-    <option name="LAST_COMMIT_MESSAGE" value="second" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/MySQL/MySQLDemo02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="699" column="16" selection-start-line="699" selection-start-column="16" selection-end-line="699" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5455">
-          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Learn/TestMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Algorithm/RomanNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="-242">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="267" column="76" lean-forward="true" selection-start-line="267" selection-start-column="76" selection-end-line="267" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="3319" column="4" selection-start-line="3319" selection-start-column="4" selection-end-line="3319" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dandelion/Algorithm/SolveSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="96" selection-start-line="45" selection-start-column="96" selection-end-line="45" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>mysql-connector-java-5.1.44-bin</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2720588" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
