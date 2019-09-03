@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/Trap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/Trap2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/Trap3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/lengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/Zconvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/Zconvert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/Zconvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/ZConvert.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,6 +157,7 @@
       <workItem from="1567055529259" duration="246000" />
       <workItem from="1567056047342" duration="72000" />
       <workItem from="1567056131337" duration="15333000" />
+      <workItem from="1567501883116" duration="302000" />
     </task>
     <servers />
   </component>
