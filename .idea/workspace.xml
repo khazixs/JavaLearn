@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Decorator/FlyCarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -42,10 +47,29 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/Dandelion/Designpattern" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.Dandelion.Designpattern" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,26 +83,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lengthOfLongestSubstring">
-    <configuration name="Trap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Algorithm.Trap" />
+  <component name="RunManager" selected="Application.Decorator">
+    <configuration name="Decorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.Decorator.Decorator" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Trap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Algorithm.Trap2" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.Algorithm.*" />
+          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,19 +99,6 @@
     </configuration>
     <configuration name="Trap3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Dandelion.Algorithm.Trap3" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Algorithm.ZConvert" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -125,20 +123,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FlyCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Dandelion.Designpattern" />
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.FlyCarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlyCarTest.testMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Dandelion.Designpattern" />
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.FlyCarTest" />
+      <option name="METHOD_NAME" value="testMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ZConvert" />
-      <item itemvalue="Application.Trap" />
-      <item itemvalue="Application.Trap2" />
       <item itemvalue="Application.Trap3" />
       <item itemvalue="Application.lengthOfLongestSubstring" />
+      <item itemvalue="Application.Decorator" />
+      <item itemvalue="JUnit.FlyCarTest.testMove" />
+      <item itemvalue="JUnit.FlyCarTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decorator" />
+        <item itemvalue="JUnit.FlyCarTest.testMove" />
+        <item itemvalue="JUnit.FlyCarTest" />
         <item itemvalue="Application.lengthOfLongestSubstring" />
         <item itemvalue="Application.Trap3" />
-        <item itemvalue="Application.Trap2" />
-        <item itemvalue="Application.Trap" />
-        <item itemvalue="Application.ZConvert" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +187,7 @@
       <workItem from="1567056047342" duration="72000" />
       <workItem from="1567056131337" duration="15333000" />
       <workItem from="1567501883116" duration="302000" />
+      <workItem from="1567668713921" duration="3982000" />
     </task>
     <servers />
   </component>
@@ -176,5 +206,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
