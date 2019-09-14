@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Decorator/FlyCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Concurrency/ConcurrencyTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/DesignPattern/Decorator/AutoCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/DesignPattern/Decorator/AutoCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Decorator/FlyCarTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,13 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Decorator">
-    <configuration name="Decorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.Decorator.Decorator" />
+  <component name="RunManager" selected="Application.ConcurrencyTest01">
+    <configuration name="ConcurrencyTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Concurrency.ConcurrencyTest01" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
+          <option name="PATTERN" value="com.Dandelion.Concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Trap3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Algorithm.Trap3" />
+    <configuration name="Decorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.Decorator.Decorator" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Algorithm.*" />
+          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Trap3" />
       <item itemvalue="Application.lengthOfLongestSubstring" />
       <item itemvalue="Application.Decorator" />
       <item itemvalue="JUnit.FlyCarTest.testMove" />
       <item itemvalue="JUnit.FlyCarTest" />
+      <item itemvalue="Application.ConcurrencyTest01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrencyTest01" />
         <item itemvalue="Application.Decorator" />
         <item itemvalue="JUnit.FlyCarTest.testMove" />
         <item itemvalue="JUnit.FlyCarTest" />
         <item itemvalue="Application.lengthOfLongestSubstring" />
-        <item itemvalue="Application.Trap3" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +190,8 @@
       <workItem from="1567056131337" duration="15333000" />
       <workItem from="1567501883116" duration="302000" />
       <workItem from="1567668713921" duration="3982000" />
+      <workItem from="1568466719142" duration="644000" />
+      <workItem from="1568468904805" duration="2104000" />
     </task>
     <servers />
   </component>
