@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/EatPeach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/ObserverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer2/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer2/ObserverA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/DesignPattern/FlyCarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/EatPeach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/EatPeach.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +41,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -83,7 +90,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EatPeach">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.Observer2.Client" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Dandelion.Designpattern.Observer2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.Observer.Client" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Dandelion.Designpattern.Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConcurrencyTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Dandelion.Concurrency.ConcurrencyTest01" />
       <module name="Java" />
@@ -102,7 +135,7 @@
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
+          <option name="PATTERN" value="com.Dandelion.Designpattern.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,51 +156,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Dandelion.Designpattern" />
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.FlyCarTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlyCarTest.testMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Dandelion.Designpattern" />
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.FlyCarTest" />
-      <option name="METHOD_NAME" value="testMove" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Decorator" />
       <item itemvalue="Application.ConcurrencyTest01" />
-      <item itemvalue="JUnit.FlyCarTest.testMove" />
-      <item itemvalue="JUnit.FlyCarTest" />
       <item itemvalue="Application.EatPeach" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.EatPeach" />
         <item itemvalue="Application.ConcurrencyTest01" />
         <item itemvalue="Application.Decorator" />
-        <item itemvalue="JUnit.FlyCarTest.testMove" />
-        <item itemvalue="JUnit.FlyCarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +192,7 @@
       <workItem from="1567668713921" duration="3982000" />
       <workItem from="1568466719142" duration="644000" />
       <workItem from="1568468904805" duration="2104000" />
+      <workItem from="1568724684091" duration="2462000" />
     </task>
     <servers />
   </component>
