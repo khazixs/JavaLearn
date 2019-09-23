@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/ObserverA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer2/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/DesignPattern/Observer2/ObserverA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/EatPeach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/EatPeach.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,6 +184,7 @@
       <workItem from="1568466719142" duration="644000" />
       <workItem from="1568468904805" duration="2104000" />
       <workItem from="1568724684091" duration="2462000" />
+      <workItem from="1568798706400" duration="637000" />
     </task>
     <servers />
   </component>
