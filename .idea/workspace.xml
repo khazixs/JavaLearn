@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Annotation/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Annotation/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Annotation/MyAnnotation01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/Demo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/DynamicCompile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/Field01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/HelloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/ReflectionTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/ReflectionTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/ReflectionTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/Student01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/Reflect/Table01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/FinalizeEscapeGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/RuntimeConstantPoolOOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,20 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DynamicCompile">
-    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.Reflect.Demo03" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Dandelion.Learn.Reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FinalizeEscapeGC">
     <configuration name="DynamicCompile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.Reflect.DynamicCompile" />
       <module name="Java" />
@@ -126,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.Reflect.ReflectionTest01" />
+    <configuration name="FinalizeEscapeGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.FinalizeEscapeGC" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Learn.Reflect.*" />
+          <option name="PATTERN" value="com.Dandelion.Learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,20 +140,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RuntimeConstantPoolOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.RuntimeConstantPoolOOM" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Dandelion.Learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Demo03" />
-      <item itemvalue="Application.ReflectionTest01" />
       <item itemvalue="Application.ReflectionTest02" />
       <item itemvalue="Application.ReflectionTest03" />
       <item itemvalue="Application.DynamicCompile" />
+      <item itemvalue="Application.RuntimeConstantPoolOOM" />
+      <item itemvalue="Application.FinalizeEscapeGC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalizeEscapeGC" />
+        <item itemvalue="Application.RuntimeConstantPoolOOM" />
         <item itemvalue="Application.DynamicCompile" />
         <item itemvalue="Application.ReflectionTest03" />
         <item itemvalue="Application.ReflectionTest02" />
-        <item itemvalue="Application.ReflectionTest01" />
-        <item itemvalue="Application.Demo03" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +192,7 @@
       <workItem from="1568724684091" duration="2462000" />
       <workItem from="1568798706400" duration="637000" />
       <workItem from="1569209168745" duration="8543000" />
+      <workItem from="1569288353100" duration="7257000" />
     </task>
     <servers />
   </component>
