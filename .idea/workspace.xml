@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/EatPeach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/MaxTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/DesignPattern/FlyCarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/EatPeach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/EatPeach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/EatPeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/EatPeach.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,9 +158,9 @@
     <list>
       <item itemvalue="Application.Decorator" />
       <item itemvalue="Application.ConcurrencyTest01" />
+      <item itemvalue="Application.EatPeach" />
       <item itemvalue="JUnit.FlyCarTest.testMove" />
       <item itemvalue="JUnit.FlyCarTest" />
-      <item itemvalue="Application.EatPeach" />
     </list>
     <recent_temporary>
       <list>
@@ -190,6 +191,7 @@
       <workItem from="1567668713921" duration="3982000" />
       <workItem from="1568466719142" duration="644000" />
       <workItem from="1568468904805" duration="2104000" />
+      <workItem from="1568638640831" duration="1802000" />
     </task>
     <servers />
   </component>

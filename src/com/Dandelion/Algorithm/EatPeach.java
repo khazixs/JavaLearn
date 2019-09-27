@@ -2,20 +2,20 @@ package com.Dandelion.Algorithm;
 
 public class EatPeach {
     public static void main(String[] args) {
-        System.out.println(calculate(10,3));
+        System.out.println(calculate(11, 3));
     }
 
-    private static int calculate(int value,int base){
-        int total = 0;
+    private static int calculate(int value, int base) {
+        int total = value;
         int leave = 0;
-//        int n = (int) (Math.log(value)/Math.log(base));
-        while(value>=3){
-            total+=value;
-            leave += value%3;
-            total+=3;
-            if(leave>=3){
-                value += 1;
-            }
+        while (value >= 3) {
+            total += value / base;
+            System.out.println("total:" + total);
+            leave += value % base;
+            value = value / base + leave;
+            leave = 0;
+            System.out.println("now:" + value);
+
         }
         return total;
     }
