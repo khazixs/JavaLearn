@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06f51d4-460d-4bef-90c6-030a6e939e5c" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/MaxTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/EatPeach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Algorithm/EatPeach.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/EatPeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dandelion/Algorithm/EatPeach.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/com/Dandelion/Learn/TestThreadMonitoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Learn/FinalizeEscapeGC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/Dandelion/Learn/FinalizeEscapeGC.class" afterDir="false" />
+>>>>>>> e31b22a1fb538d16692e062b42fc8b4a0abb3b71
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +42,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -67,6 +75,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.Dandelion.Designpattern" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Dandelion.Learn.Reflect" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
       <recent name="" />
@@ -84,13 +95,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EatPeach">
-    <configuration name="ConcurrencyTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Concurrency.ConcurrencyTest01" />
+  <component name="RunManager" selected="Application.TestThreadMonitoring">
+    <configuration name="DynamicCompile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.Reflect.DynamicCompile" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Concurrency.*" />
+          <option name="PATTERN" value="com.Dandelion.Learn.Reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Decorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.Decorator.Decorator" />
+    <configuration name="FinalizeEscapeGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.FinalizeEscapeGC" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
+          <option name="PATTERN" value="com.Dandelion.Learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EatPeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Algorithm.EatPeach" />
+    <configuration name="ReflectionTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.Reflect.ReflectionTest03" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Algorithm.*" />
+          <option name="PATTERN" value="com.Dandelion.Learn.Reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,51 +135,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RuntimeConstantPoolOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.RuntimeConstantPoolOOM" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
+          <option name="PATTERN" value="com.Dandelion.Learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Dandelion.Designpattern" />
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.FlyCarTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyCarTest.testMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestThreadMonitoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Learn.TestThreadMonitoring" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dandelion.Designpattern.Decorator.*" />
+          <option name="PATTERN" value="com.Dandelion.Learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Dandelion.Designpattern" />
-      <option name="MAIN_CLASS_NAME" value="com.Dandelion.Designpattern.FlyCarTest" />
-      <option name="METHOD_NAME" value="testMove" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.Decorator" />
       <item itemvalue="Application.ConcurrencyTest01" />
       <item itemvalue="Application.EatPeach" />
       <item itemvalue="JUnit.FlyCarTest.testMove" />
       <item itemvalue="JUnit.FlyCarTest" />
+=======
+      <item itemvalue="Application.ReflectionTest03" />
+      <item itemvalue="Application.DynamicCompile" />
+      <item itemvalue="Application.RuntimeConstantPoolOOM" />
+      <item itemvalue="Application.FinalizeEscapeGC" />
+      <item itemvalue="Application.TestThreadMonitoring" />
+>>>>>>> e31b22a1fb538d16692e062b42fc8b4a0abb3b71
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EatPeach" />
-        <item itemvalue="Application.ConcurrencyTest01" />
-        <item itemvalue="Application.Decorator" />
-        <item itemvalue="JUnit.FlyCarTest.testMove" />
-        <item itemvalue="JUnit.FlyCarTest" />
+        <item itemvalue="Application.TestThreadMonitoring" />
+        <item itemvalue="Application.FinalizeEscapeGC" />
+        <item itemvalue="Application.RuntimeConstantPoolOOM" />
+        <item itemvalue="Application.DynamicCompile" />
+        <item itemvalue="Application.ReflectionTest03" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +205,17 @@
       <workItem from="1567668713921" duration="3982000" />
       <workItem from="1568466719142" duration="644000" />
       <workItem from="1568468904805" duration="2104000" />
+<<<<<<< HEAD
       <workItem from="1568638640831" duration="1802000" />
+=======
+      <workItem from="1568724684091" duration="2462000" />
+      <workItem from="1568798706400" duration="637000" />
+      <workItem from="1569209168745" duration="8543000" />
+      <workItem from="1569288353100" duration="7257000" />
+      <workItem from="1569564812792" duration="436000" />
+      <workItem from="1569569185609" duration="608000" />
+      <workItem from="1569570723616" duration="1685000" />
+>>>>>>> e31b22a1fb538d16692e062b42fc8b4a0abb3b71
     </task>
     <servers />
   </component>
