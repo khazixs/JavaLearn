@@ -7,13 +7,15 @@ public class MySQLDemo03 {
         Class.forName("com.mysql.jdbc.Driver");
         Connection conn = null;
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db1", "root", "zdk5659");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "526995");
             conn.setAutoCommit(false);
-            PreparedStatement ps1 = conn.prepareStatement("insert into test (id,username) values (?,?)");
-            ps1.setObject(1, "list3.14");
+            PreparedStatement ps1 = conn.prepareStatement("insert into employees (employee_id,employee_name,department_id,salary) values (?,?,?,?)");
+            ps1.setObject(1, 123);
             ps1.setObject(2, "happy");
+            ps1.setObject(3, 20113);
+            ps1.setObject(4, 123.56);
             ps1.execute();
-            System.out.println("插入用户3.14");
+            System.out.println("插入用户123");
 
             try {
                 Thread.sleep(1000);
@@ -21,11 +23,13 @@ public class MySQLDemo03 {
                 e.printStackTrace();
             }
 
-            PreparedStatement ps2 = conn.prepareStatement("insert into test (id,username) values (?,?,?)");
-            ps2.setObject(1, "list6.28");
+            PreparedStatement ps2 = conn.prepareStatement("insert into employees (employee_id,employee_name,department_id,salary) values (?,?,?,?)");
+            ps2.setObject(1, 628);
             ps2.setObject(2, "worry");
+            ps2.setObject(3, 20414);
+            ps2.setObject(4, 5683);
             ps2.execute();
-            System.out.println("插入用户6.28");
+            System.out.println("插入用户628");
 
             conn.commit();
 
@@ -35,6 +39,7 @@ public class MySQLDemo03 {
         } catch (SQLException e) {
             e.printStackTrace();
             try {
+                assert conn != null;
                 conn.rollback();//回滚
             } catch (SQLException ex) {
                 ex.printStackTrace();
