@@ -1,4 +1,4 @@
-package interviewSecretary;
+package com.Dandelion.Project.InterviewSecrectary.src.interviewSecretary;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -14,14 +14,14 @@ import com.iflytek.msp.cpdb.lfasr.model.Message;
 import com.iflytek.msp.cpdb.lfasr.model.ProgressStatus;
 
 public class S2T {
-	// Ô­Ê¼ÒôÆµ´æ·ÅµØÖ·
+	// Ô­Ê¼ï¿½ï¿½Æµï¿½ï¿½Åµï¿½Ö·
 		private String input_file = "";
 		/*
-		 * ×ªÐ´ÀàÐÍÑ¡Ôñ£º±ê×¼°æºÍµç»°°æ·Ö±ðÎª£º
-		 * LfasrType.LFASR_STANDARD_RECORDED_AUDIO ºÍ LfasrType.LFASR_TELEPHONY_RECORDED_AUDIO
+		 * ×ªÐ´ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ñ£º±ï¿½×¼ï¿½ï¿½Íµç»°ï¿½ï¿½Ö±ï¿½Îªï¿½ï¿½
+		 * LfasrType.LFASR_STANDARD_RECORDED_AUDIO ï¿½ï¿½ LfasrType.LFASR_TELEPHONY_RECORDED_AUDIO
 		 * */
 		private LfasrType type = LfasrType.LFASR_STANDARD_RECORDED_AUDIO;
-		// µÈ´ýÊ±³¤£¨Ãë£©
+		// ï¿½È´ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ë£©
 		private int sleepSecond = 20;
 	
 	S2T(String default_inpath_value){
@@ -30,100 +30,100 @@ public class S2T {
 	
 	public String start(){
 		
-		// ³õÊ¼»¯LFASRÊµÀý
+		// ï¿½ï¿½Ê¼ï¿½ï¿½LFASRÊµï¿½ï¿½
 		LfasrClientImp lc = null;
 		try {
 			lc = LfasrClientImp.initLfasrClient();
 			} catch (LfasrException e) {
-				// ³õÊ¼»¯Òì³££¬½âÎöÒì³£ÃèÊöÐÅÏ¢
+				// ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 				Message initMsg = JSON.parseObject(e.getMessage(), Message.class);
 				System.out.println("Hello 1");
 				return "ecode=" + initMsg.getErr_no()+" || "+"failed=" + initMsg.getFailed();
 			}
 		
-		// »ñÈ¡ÉÏ´«ÈÎÎñID
+		// ï¿½ï¿½È¡ï¿½Ï´ï¿½ï¿½ï¿½ï¿½ï¿½ID
 		String task_id = "";
 		HashMap<String, String> params = new HashMap<>();
 		params.put("has_participle", "true");
 		try {
-			// ÉÏ´«ÒôÆµÎÄ¼þ
+			// ï¿½Ï´ï¿½ï¿½ï¿½Æµï¿½Ä¼ï¿½
 			Message uploadMsg = lc.lfasrUpload(input_file, type, params);
 			
-			// ÅÐ¶Ï·µ»ØÖµ
+			// ï¿½Ð¶Ï·ï¿½ï¿½ï¿½Öµ
 			int ok = uploadMsg.getOk();
 			if (ok == 0) {} 
 			else {
-				// ´´½¨ÈÎÎñÊ§°Ü-·þÎñ¶ËÒì³£
+				// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³£
 				System.out.println("Hello 2");
 				return "ecode=" +  uploadMsg.getErr_no()+" || "+"failed=" +  uploadMsg.getFailed();
 				}
 			} catch (LfasrException e) {
-				// ÉÏ´«Òì³££¬½âÎöÒì³£ÃèÊöÐÅÏ¢
+				// ï¿½Ï´ï¿½ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 				System.out.println("Hello 3");
 				Message uploadMsg = JSON.parseObject(e.getMessage(), Message.class);
 				return "ecode=" +  uploadMsg.getErr_no()+" || "+"failed=" +  uploadMsg.getFailed();
 				}
 						
-				// Ñ­»·µÈ´ýÒôÆµ´¦Àí½á¹û
+				// Ñ­ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				while (true) {
 					try {
-						// Ë¯Ãß1min¡£ÁíÍâÒ»¸ö·½°¸ÊÇÈÃÓÃ»§³¢ÊÔ¶à´Î»ñÈ¡£¬µÚÒ»´Î¼ÙÉèµÈ1·ÖÖÓ£¬»ñÈ¡³É¹¦ºóbreak£»Ê§°ÜµÄ»°Ôö¼Óµ½2·ÖÖÓÔÙ»ñÈ¡£¬»ñÈ¡³É¹¦ºóbreak£»ÔÙÊ§°ÜµÄ»°¼Óµ½4·ÖÖÓ£»8·ÖÖÓ£»¡­¡­
+						// Ë¯ï¿½ï¿½1minï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Î»ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Î¼ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½È¡ï¿½É¹ï¿½ï¿½ï¿½breakï¿½ï¿½Ê§ï¿½ÜµÄ»ï¿½ï¿½ï¿½ï¿½Óµï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½Ù»ï¿½È¡ï¿½ï¿½ï¿½ï¿½È¡ï¿½É¹ï¿½ï¿½ï¿½breakï¿½ï¿½ï¿½ï¿½Ê§ï¿½ÜµÄ»ï¿½ï¿½Óµï¿½4ï¿½ï¿½ï¿½Ó£ï¿½8ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½ï¿½
 						Thread.sleep(sleepSecond * 1000);
 						//System.out.println("waiting ...");
 					} catch (InterruptedException e) {System.out.println("Hello 4");}
 					try {
-						// »ñÈ¡´¦Àí½ø¶È
+						// ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 						Message progressMsg = lc.lfasrGetProgress(task_id);
 								
-						// Èç¹û·µ»Ø×´Ì¬²»µÈÓÚ0£¬ÔòÈÎÎñÊ§°Ü
+						// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½
 						if (progressMsg.getOk() != 0) {
 							/*System.out.println("task was fail. task_id:" + task_id);
 							System.out.println("ecode=" + progressMsg.getErr_no());
 							System.out.println("failed=" + progressMsg.getFailed());*/
 							
-							// ·þÎñ¶Ë´¦ÀíÒì³£-·þÎñ¶ËÄÚ²¿ÓÐÖØÊÔ»úÖÆ£¨²»ÅÅ²é¼«¶ËÎÞ·¨»Ö¸´µÄÈÎÎñ£©
-							// ¿Í»§¶Ë¿É¸ù¾ÝÊµ¼ÊÇé¿öÑ¡Ôñ£º
-							// 1. ¿Í»§¶ËÑ­»·ÖØÊÔ»ñÈ¡½ø¶È
-							// 2. ÍË³ö³ÌÐò£¬·´À¡ÎÊÌâ
+							// ï¿½ï¿½ï¿½ï¿½Ë´ï¿½ï¿½ï¿½ï¿½ì³£-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô»ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½Å²é¼«ï¿½ï¿½ï¿½Þ·ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+							// ï¿½Í»ï¿½ï¿½Ë¿É¸ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
+							// 1. ï¿½Í»ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½Ô»ï¿½È¡ï¿½ï¿½ï¿½ï¿½
+							// 2. ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ò£¬·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 							continue;
 						} else {
 							ProgressStatus progressStatus = JSON.parseObject(progressMsg.getData(), ProgressStatus.class);
 							if (progressStatus.getStatus() == 9) {
-								// ´¦ÀíÍê³É
+								// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 								//System.out.println("task was completed. task_id:" + task_id);
 								System.out.println("Hello 5");
 								break;	
 							} else {
-								// Î´´¦ÀíÍê³É
+								// Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 								//System.out.println("task was incomplete. task_id:" + task_id + ", status:" + progressStatus.getDesc());
 								System.out.println("Hello 6");
 								continue;
 							}
 						}
 					} catch (LfasrException e) {
-						// »ñÈ¡½ø¶ÈÒì³£´¦Àí£¬¸ù¾Ý·µ»ØÐÅÏ¢ÅÅ²éÎÊÌâºó£¬ÔÙ´Î½øÐÐ»ñÈ¡
+						// ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý·ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½Å²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù´Î½ï¿½ï¿½Ð»ï¿½È¡
 						System.out.println("Hello 7");
 						Message progressMsg = JSON.parseObject(e.getMessage(), Message.class);
 						return "ecode=" +  progressMsg.getErr_no()+" || "+"failed=" +  progressMsg.getFailed();
 					}
 				}
 
-				// »ñÈ¡ÈÎÎñ½á¹û
+				// ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				try {
 					Message resultMsg = lc.lfasrGetResult(task_id);
 					//System.out.println(resultMsg.getData());	
-					// Èç¹û·µ»Ø×´Ì¬µÈÓÚ0£¬ÔòÈÎÎñ´¦Àí³É¹¦
+					// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¹ï¿½
 					if (resultMsg.getOk() == 0) {
-						// ´òÓ¡×ªÐ´½á¹û
+						// ï¿½ï¿½Ó¡×ªÐ´ï¿½ï¿½ï¿½
 						//System.out.println(resultMsg.getData());
 						return resultMsg.getData();
 					} else {
-						// ×ªÐ´Ê§°Ü£¬¸ù¾ÝÊ§°ÜÐÅÏ¢½øÐÐ´¦Àí
+						// ×ªÐ´Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½
 						System.out.println("Hello 8");
 						return "ecode=" +  resultMsg.getErr_no()+" || "+"failed=" +  resultMsg.getFailed();
 					}
 				} catch (LfasrException e) {
-					// »ñÈ¡½á¹ûÒì³£´¦Àí£¬½âÎöÒì³£ÃèÊöÐÅÏ¢
+					// ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 					System.out.println("Hello 9");
 					Message resultMsg = JSON.parseObject(e.getMessage(), Message.class);
 					return "ecode=" +  resultMsg.getErr_no()+" || "+"failed=" +  resultMsg.getFailed();

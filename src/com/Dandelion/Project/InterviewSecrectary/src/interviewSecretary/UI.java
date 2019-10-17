@@ -1,4 +1,4 @@
-package interviewSecretary;
+package com.Dandelion.Project.InterviewSecrectary.src.interviewSecretary;
 
 import javax.swing.*;
 import java.awt.*;
@@ -40,17 +40,17 @@ public class UI extends JFrame{
 		add(panel);
 		
 		menu_bar = new JMenuBar();
-		option = new JMenu("Ñ¡Ïî(O)");
-		about = new JMenu("¹ØÓÚ(A)");
+		option = new JMenu("Ñ¡ï¿½ï¿½(O)");
+		about = new JMenu("ï¿½ï¿½ï¿½ï¿½(A)");
 		
-		account = new JMenuItem("ÕË»§ÉèÖÃ");
-		default_path = new JMenuItem("Ä¬ÈÏÊä³öÂ·¾¶");
-		swap_path = new JMenuItem("Ä¬ÈÏÖÐ×ªÂ·¾¶");
-		bug_report = new JMenuItem("ÎÊÌâ·´À¡");
-		about_content_1 = new JMenuItem("ÕâÊÇÒ»¿î¿ªÔ´Èí¼þ");
-		about_content_2 = new JMenuItem("¿ª·¢Õß£ºDarui");
-		about_content_3 = new JMenuItem("ÔËÐÐÆ½Ì¨£ºJava 1.8");
-		about_content_4 = new JMenuItem("ÓïÒôÒýÇæ£º¿Æ´óÑ¶·ÉÓïÒôÒýÇæ");
+		account = new JMenuItem("ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½");
+		default_path = new JMenuItem("Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½");
+		swap_path = new JMenuItem("Ä¬ï¿½ï¿½ï¿½ï¿½×ªÂ·ï¿½ï¿½");
+		bug_report = new JMenuItem("ï¿½ï¿½ï¿½â·´ï¿½ï¿½");
+		about_content_1 = new JMenuItem("ï¿½ï¿½ï¿½ï¿½Ò»ï¿½î¿ªÔ´ï¿½ï¿½ï¿½");
+		about_content_2 = new JMenuItem("ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½Darui");
+		about_content_3 = new JMenuItem("ï¿½ï¿½ï¿½ï¿½Æ½Ì¨ï¿½ï¿½Java 1.8");
+		about_content_4 = new JMenuItem("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ£ºï¿½Æ´ï¿½Ñ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		
 		option.add(account);
 		option.add(default_path);
@@ -78,9 +78,9 @@ public class UI extends JFrame{
 		setJMenuBar(menu_bar);
 		
 		//
-		button_input = new JButton("ÇëÑ¡ÔñÒôÆµÎÄ¼þÂ·¾¶");
-		button_output = new JButton("ÇëÑ¡ÔñÊä³öÎÄ±¾Â·¾¶");
-		button_start = new JButton("¿ªÊ¼×ª»»");
+		button_input = new JButton("ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½Æµï¿½Ä¼ï¿½Â·ï¿½ï¿½");
+		button_output = new JButton("ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½Â·ï¿½ï¿½");
+		button_start = new JButton("ï¿½ï¿½Ê¼×ªï¿½ï¿½");
 		
 		button_input.setFont(new Font("Serif",Font.PLAIN,15));
 		button_output.setFont(new Font("Serif",Font.PLAIN,15));
@@ -94,8 +94,8 @@ public class UI extends JFrame{
 		button_output.addActionListener(new Button_outputHandler());
 		button_start.addActionListener(new Button_startHandler());
 		
-		input_path_tip = new JLabel("ÊäÈëÂ·¾¶£º");
-		output_path_tip = new JLabel("Êä³öÂ·¾¶£º");
+		input_path_tip = new JLabel("ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½");
+		output_path_tip = new JLabel("ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½");
 		input_path_tip.setFont(new Font("Serif",Font.PLAIN,12));
 		output_path_tip.setFont(new Font("Serif",Font.PLAIN,12));
 		
@@ -126,9 +126,9 @@ public class UI extends JFrame{
 		panel.add(output_path_tip);
 		panel.add(output_path);
 		
-		output_type_tip = new JLabel("ÇëÑ¡ÔñÊä³ö¸ñÊ½£º");
-		plain_text = new JCheckBox("´¿ÎÄ±¾");
-		json_file = new JCheckBox("JSONÎÄ¼þ");
+		output_type_tip = new JLabel("ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½");
+		plain_text = new JCheckBox("ï¿½ï¿½ï¿½Ä±ï¿½");
+		json_file = new JCheckBox("JSONï¿½Ä¼ï¿½");
 		plain_text.setFont(new Font("Serif",Font.PLAIN,12));
 		json_file.setFont(new Font("Serif",Font.PLAIN,12));
 		
@@ -139,7 +139,7 @@ public class UI extends JFrame{
 		plain_text.addItemListener(new PlainHandler());
 		json_file.addItemListener(new JsonHandler());
 		
-		/*time_left = new JLabel("µ±Ç°ÕÊ»§Ê£Óà¿ÉÓÃÊ±³¤£ºXX : XX : XX");
+		/*time_left = new JLabel("ï¿½ï¿½Ç°ï¿½Ê»ï¿½Ê£ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½XX : XX : XX");
 		time_left.setFont(new Font("Serif",Font.PLAIN,12));
 		
 		panel.add(time_left);*/
@@ -163,7 +163,7 @@ public class UI extends JFrame{
 	
 	private class Bug_reportHandler implements ActionListener{
 		public void actionPerformed(ActionEvent ae){
-			JOptionPane.showMessageDialog(UI.this, "1. Çë·ÃÎÊhttps://www.baidu.com/Ìá½»´íÎó·´À¡£¡\n2. »òÕß·¢ËÍEmailÖÁ1966559375@qq.com·´À¡´íÎó£¡");
+			JOptionPane.showMessageDialog(UI.this, "1. ï¿½ï¿½ï¿½ï¿½ï¿½https://www.baidu.com/ï¿½á½»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n2. ï¿½ï¿½ï¿½ß·ï¿½ï¿½ï¿½Emailï¿½ï¿½1966559375@qq.comï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}
 	}
 	
@@ -171,7 +171,7 @@ public class UI extends JFrame{
 		public void actionPerformed(ActionEvent ae){
 			JFileChooser infile = new JFileChooser();
 			infile.setFileSelectionMode(JFileChooser.FILES_ONLY);
-			infile.showDialog(new JLabel(), "Ñ¡ÔñÊäÈëÎÄ¼þ");
+			infile.showDialog(new JLabel(), "Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½");
 			File file = infile.getSelectedFile();
 			default_inpath_value = new String(file.getAbsolutePath());
 			input_path.setText(default_inpath_value);
@@ -182,7 +182,7 @@ public class UI extends JFrame{
 		public void actionPerformed(ActionEvent ae){
 			JFileChooser infile = new JFileChooser();
 			infile.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-			infile.showDialog(new JLabel(), "Ñ¡ÔñÊä³öÎÄ¼þ¼Ð");
+			infile.showDialog(new JLabel(), "Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½");
 			File file = infile.getSelectedFile();
 			output_path.setText(file.getAbsolutePath());
 		}
@@ -190,8 +190,8 @@ public class UI extends JFrame{
 	
 	private class AccountHandler implements ActionListener{
 		public void actionPerformed(ActionEvent ae){
-			String app_id=JOptionPane.showInputDialog("ÇëÊäÈëAPP ID:");
-			String secret_key=JOptionPane.showInputDialog("ÇëÊäÈësecret key:");
+			String app_id=JOptionPane.showInputDialog("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½APP ID:");
+			String secret_key=JOptionPane.showInputDialog("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½secret key:");
 			try {
 				Scanner infile = new Scanner(new File("config.properties"));
 				String s = new String();
@@ -219,7 +219,7 @@ public class UI extends JFrame{
 		public void actionPerformed(ActionEvent ae){
 			JFileChooser outpath = new JFileChooser();
 			outpath.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-			outpath.showDialog(new JLabel(), "Ñ¡ÔñÄ¬ÈÏÊä³öÎÄ¼þ¼Ð");
+			outpath.showDialog(new JLabel(), "Ñ¡ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½");
 			File file = outpath.getSelectedFile();
 			default_outpath_value = file.getAbsolutePath();
 			output_path.setText(default_outpath_value);
@@ -243,7 +243,7 @@ public class UI extends JFrame{
 		public void actionPerformed(ActionEvent ae){
 			JFileChooser swappath = new JFileChooser();
 			swappath.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-			swappath.showDialog(new JLabel(), "Ñ¡ÔñÖÐ×ªÎÄ¼þ¼Ð");
+			swappath.showDialog(new JLabel(), "Ñ¡ï¿½ï¿½ï¿½ï¿½×ªï¿½Ä¼ï¿½ï¿½ï¿½");
 			File file = swappath.getSelectedFile();
 			default_swappath_value = file.getAbsolutePath();
 			
@@ -264,7 +264,7 @@ public class UI extends JFrame{
 	
 	private class Button_startHandler implements ActionListener{
 		public void actionPerformed(ActionEvent ae){
-			//JOptionPane.showMessageDialog(UI.this, "ÏÖÔÚ¿ªÊ¼×ªÐ´");
+			//JOptionPane.showMessageDialog(UI.this, "ï¿½ï¿½ï¿½Ú¿ï¿½Ê¼×ªÐ´");
 			S2Ttest s2t = new S2Ttest(default_inpath_value);
 			String result = s2t.start();
 			String input_file = default_inpath_value.replace("\\", "\\\\");
@@ -272,7 +272,7 @@ public class UI extends JFrame{
 			
 			//System.out.println(result);
 			if (result.startsWith("failed")){
-				JOptionPane.showMessageDialog(UI.this, "ÈÎÎñÊ§°Ü£¬Ê§°ÜÐÅÏ¢£º"+result);
+				JOptionPane.showMessageDialog(UI.this, "ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½Ê§ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½"+result);
 			}
 			else {
 				if (output_type_plain){
@@ -299,7 +299,7 @@ public class UI extends JFrame{
 						outfile.close();
 					} catch (FileNotFoundException e){}
 				}
-				JOptionPane.showMessageDialog(UI.this, "¸Ã×ªÐ´ÈÎÎñÒÑÍê³É");
+				JOptionPane.showMessageDialog(UI.this, "ï¿½ï¿½×ªÐ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 			}
 		}
 	}
